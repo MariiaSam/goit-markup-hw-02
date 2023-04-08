@@ -6,12 +6,13 @@
   /*text color*/
   --main-text-color: #2e2f42;
   --secondary-text-color: #434455;
+  --white-text-color: #ffffff;
   --accent-text-color: #4d5ae5;
-  --focus-nav-color:#404BBF;
+  --focus-nav-color: #404bbf;
 
   /*background color*/
   --main-bgc-color: #ffffff;
-  --secondary-bgc-color::#2E2F42;
+  --secondary-bgc-color: #2e2f42;
 }
 
 body {
@@ -19,17 +20,24 @@ body {
   color: var(--main-text-color);
 }
 
-a{
-text-decoration: none;
+a {
+  text-decoration: none;
 }
 
 ul {
   list-style: none;
 }
 
+h1 {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  color: var(--white-text-color);
+}
+
 /*Navigation*/
 nav {
-  background-color: var(--main-bgc-color);
+  background: var(--main-bgc-color);
 }
 
 .logo,
@@ -44,26 +52,29 @@ nav {
   color: var(--accent-text-color);
 }
 
-.nav-link{
+.nav-link {
   font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 .nav-link:hover,
-.nav-link:focus{
-color: var(--focus-nav-color);
+.nav-link:focus {
+  color: var(--focus-nav-color);
 }
 
-.mail, 
-.tel{
-font-size: 16px;
-line-height: 1.5;
-color: var(--secondary-text-color);
+.mail,
+.tel {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--secondary-text-color);
 }
 
-.mail:hover
-.mail:focus{
-color: var(--focus-nav-color);
+.mail:hover .mail:focus {
+  color: var(--focus-nav-color);
 }
 
+/*Main*/
+.hero {
+  background-color: var(--secondary-bgc-color);
+}
