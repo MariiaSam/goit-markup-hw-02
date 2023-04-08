@@ -1,5 +1,69 @@
+:root {
+  /*fonts*/
+  --primary-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
 
+  /*text color*/
+  --main-text-color: #2e2f42;
+  --secondary-text-color: #434455;
+  --accent-text-color: #4d5ae5;
+  --focus-nav-color:#404BBF;
 
-/*ul {
-list-style: none;
+  /*background color*/
+  --main-bgc-color: #ffffff;
+  --secondary-bgc-color::#2E2F42;
 }
+
+body {
+  font-family: var(--primary-font);
+  color: var(--main-text-color);
+}
+
+a{
+text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/*Navigation*/
+nav {
+  background-color: var(--main-bgc-color);
+}
+
+.logo,
+.logo-span {
+  font-family: var(--secondary-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+}
+
+.logo-span {
+  color: var(--accent-text-color);
+}
+
+.nav-link{
+  font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+}
+
+.nav-link:hover,
+.nav-link:focus{
+color: var(--focus-nav-color);
+}
+
+.mail, 
+.tel{
+font-size: 16px;
+line-height: 1.5;
+color: var(--secondary-text-color);
+}
+
+.mail:hover
+.mail:focus{
+color: var(--focus-nav-color);
+}
+
