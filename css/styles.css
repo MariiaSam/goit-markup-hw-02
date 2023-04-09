@@ -110,7 +110,7 @@ h1 {
   border: none;
   cursor: pointer;
 }
-o .btn-hero:hover,
+.btn-hero:hover,
 .btn-hero:focus {
   background: var(--ocean-bgc-btnfocus);
 }
@@ -144,6 +144,10 @@ o .btn-hero:hover,
 .footer {
   background-color: var(--secondary-bgc-color);
 }
+.footer-span {
+  color: var(--footer-text-color);
+}
+
 .text-footer {
   font-size: 16px;
   line-height: 1.5;
