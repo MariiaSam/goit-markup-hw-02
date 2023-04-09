@@ -37,13 +37,6 @@ li {
   text-decoration: none;
 }
 
-h1 {
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
-  color: var(--white-text-color);
-}
-
 /*Navigation*/
 
 .logo,
@@ -100,13 +93,23 @@ h1 {
 .hero {
   background-color: var(--secondary-bgc-color);
 }
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  color: var(--white-text-color);
+  text-align: center;
+  letter-spacing: 0.02em;
+}
 
 .btn-hero {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   color: var(--white-text-color);
   background-color: var(--iris-bgc-btn);
+  letter-spacing: 0.04em;
   border: none;
   cursor: pointer;
 }
