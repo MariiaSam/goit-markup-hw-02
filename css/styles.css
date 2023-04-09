@@ -7,12 +7,16 @@
   --main-text-color: #2e2f42;
   --secondary-text-color: #434455;
   --white-text-color: #ffffff;
+  --footer-text-color: #f4f4fd;
   --accent-text-color: #4d5ae5;
   --focus-nav-color: #404bbf;
 
   /*background color*/
   --main-bgc-color: #ffffff;
   --secondary-bgc-color: #2e2f42;
+  --grey-bgc-color: #f4f4fd;
+  --iris-bgc-btn: #4d5ae5;
+  --ocean-bgc-btnfocus: #404bbf;
 }
 
 body {
@@ -28,6 +32,10 @@ ul {
   list-style: none;
 }
 
+li {
+  text-decoration: none;
+}
+
 h1 {
   font-weight: 700;
   font-size: 56px;
@@ -37,7 +45,7 @@ h1 {
 
 /*Navigation*/
 nav {
-  background: var(--main-bgc-color);
+  background-color: var(--main-bgc-color);
 }
 
 .logo,
@@ -65,16 +73,110 @@ nav {
 
 .mail,
 .tel {
+  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   color: var(--secondary-text-color);
 }
 
-.mail:hover .mail:focus {
+.mail:hover,
+.mail:focus {
   color: var(--focus-nav-color);
 }
 
 /*Main*/
+
+/*HERO*/
+
 .hero {
   background-color: var(--secondary-bgc-color);
+}
+
+.btn-hero {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--white-text-color);
+  background-color: var(--iris-bgc-btn);
+  border: none;
+  cursor: pointer;
+}
+o .btn-hero:hover,
+.btn-hero:focus {
+  background: var(--ocean-bgc-btnfocus);
+}
+
+.subtitle-section-one,
+.subtitle-section-three {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.text-section-one,
+.text-section-three,
+.text-portfolio-row {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--secondary-text-color);
+}
+
+.title-section-two,
+.title-section-three {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+}
+.section-three {
+  background-color: var(grey-bgc-color);
+}
+/*Footer*/
+
+.footer {
+  background-color: var(--secondary-bgc-color);
+}
+.text-footer {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--footer-text-color);
+}
+
+/*Portfolio*/
+
+/*BUTTONS*/
+
+.main-portfolio-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--white-text-color);
+  border: none;
+  background-color: var(--iris-bgc-btn);
+  cursor: pointer;
+}
+.main-portfolio-btn:focus,
+.main-portfolio-btn:hover {
+  background-color: var(--ocean-bgc-btnfocus);
+}
+.portfolio-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--accent-text-color);
+  background-color: var(--grey-bgc-color);
+  border: none;
+  cursor: pointer;
+}
+
+.portfolio-btn:focus,
+.portfolio-btn:hover {
+  color: var(--footer-text-color);
+  background-color: var(--ocean-bgc-btnfocus);
+}
+
+/*Row*/
+.title-portfolio-row {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
 }
