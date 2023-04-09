@@ -29,7 +29,7 @@ a {
   text-decoration: none;
 }
 
-ul .list {
+.list {
   list-style: none;
 }
 
@@ -72,10 +72,12 @@ li {
 .nav-link:focus {
   color: var(--focus-nav-color);
 }
+.address {
+  font-style: normal;
+}
 
 .mail,
 .tel {
-  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -154,7 +156,7 @@ li {
   background-color: var(--main-bgc-color);
 }
 
-.text-section-one {
+.text-section-three {
   color: var(--main-text-color);
 }
 /*Footer*/
