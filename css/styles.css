@@ -82,11 +82,12 @@ li {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--main-text-color);
 }
 
 .mail:hover,
-.mail:focus {
-  color: var(--main-text-color);
+.tel:focus {
+  color: var(--focus-nav-color);
 }
 
 /*Main*/
