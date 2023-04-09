@@ -53,7 +53,8 @@ li {
 .logo-span {
   color: var(--secondary-text-color);
 }
-.link {
+.link,
+.logo {
   text-decoration: none;
 }
 .list {
@@ -85,7 +86,7 @@ li {
 
 .mail:hover,
 .mail:focus {
-  color: var(--focus-nav-color);
+  color: var(--main-text-color);
 }
 
 /*Main*/
@@ -136,6 +137,10 @@ li {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
+}
+
+.text-section-one {
+  color: var(--main-text-color);
 }
 
 .title-section-two,
