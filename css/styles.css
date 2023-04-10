@@ -198,6 +198,7 @@ li {
 .portfolio-btn:focus,
 .portfolio-btn:hover {
   color: var(--white-text-color);
+  background-color: var(--ocean-bgc-btnfocus);
 }
 /*.portfolio-btn {
   font-weight: 500;
