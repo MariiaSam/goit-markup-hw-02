@@ -85,8 +85,8 @@ li {
   color: var(--main-text-color);
 }
 
-.mail:hover,
-.tel:focus {
+.mail link:hover,
+.mail link:focus {
   color: var(--focus-nav-color);
 }
 
