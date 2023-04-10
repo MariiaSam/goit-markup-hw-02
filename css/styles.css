@@ -77,18 +77,16 @@ li {
   font-style: normal;
 }
 
-.mail-link,
-.tel-link {
+.address-link,
+.address-link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
 }
 
-.mail-link:hover,
-.mail-link:focus,
-.tel-link:hover,
-.tel-link:focus {
+.address-link:hover,
+.address-link:focus {
   color: var(--focus-nav-color);
 }
 
