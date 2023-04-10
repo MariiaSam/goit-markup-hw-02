@@ -77,16 +77,18 @@ li {
   font-style: normal;
 }
 
-.mail,
-.tel {
+.mail-link,
+.tel-link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
 }
 
-.mail link:hover,
-.mail link:focus {
+.mail-link:hover,
+.mail-link:focus,
+.tel-link:hover,
+.tel-link:focus {
   color: var(--focus-nav-color);
 }
 
