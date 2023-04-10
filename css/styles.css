@@ -185,12 +185,14 @@ li {
 /*BUTTONS*/
 
 .main-portfolio-btn {
+  font-family: var(--primary-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  color: var(--white-text-color);
+  letter-spacing: 0.04em;
+  color: var(--accent-text-color);
   border: none;
-  background-color: var(--iris-bgc-btn);
+  background-color: var(--grey-bgc-color);
   cursor: pointer;
 }
 .main-portfolio-btn:focus,
