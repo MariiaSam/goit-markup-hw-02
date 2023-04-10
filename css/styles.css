@@ -184,7 +184,7 @@ li {
 
 /*BUTTONS*/
 
-.main-portfolio-btn {
+.portfolio-btn {
   font-family: var(--primary-font);
   font-weight: 500;
   font-size: 16px;
@@ -195,11 +195,11 @@ li {
   background-color: var(--grey-bgc-color);
   cursor: pointer;
 }
-.main-portfolio-btn:focus,
-.main-portfolio-btn:hover {
-  background-color: var(--ocean-bgc-btnfocus);
+.portfolio-btn:focus,
+.portfolio-btn:hover {
+  color: var(--white-text-color);
 }
-.portfolio-btn {
+/*.portfolio-btn {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -213,11 +213,20 @@ li {
 .portfolio-btn:hover {
   color: var(--footer-text-color);
   background-color: var(--ocean-bgc-btnfocus);
-}
+}*/
 
 /*Row*/
 .title-portfolio-row {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
+
+.text-portfolio-row {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
 }
